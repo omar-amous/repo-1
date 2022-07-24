@@ -1,0 +1,475 @@
+@charset "UTF-8";
+
+/* CSS DOC */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+}
+
+#container {
+    width: auto;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*left side nav*/
+
+.sidebar {
+    width: 24%;
+    background-color: rgb(0, 61, 143, 1);
+    position: fixed;
+    height: 100%;
+
+}
+
+.headdiv {
+    margin-left: 50%;
+}
+
+.logo {
+    margin-top: 2rem;
+    align-items: center;
+    width: 54%;
+
+}
+
+.nav-menu {
+    margin-top: 20%;
+    margin-right: 37%;
+
+}
+
+.lien {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(87, 120, 184, 1);
+}
+
+/*main*/
+
+
+#ensemble {
+    width: 80%;
+    margin-left: 24%;
+}
+
+/*main section.fond.titre*/
+
+.titre {
+    width: 50%;
+    font-size: 8rem;
+    color: rgba(230, 207, 136, 1);
+    margin-left: 8%;
+    padding-top: 8%;
+}
+
+.fond {
+    background-image: url(/images/portrait.JPG);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+section {
+    height: 100vh;
+}
+
+/*section 2 who is mark ?*/
+
+.parent-who {
+    position: relative;
+
+}
+
+.titre-who {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 30%;
+    border-bottom: 5px solid rgba(230, 207, 136, 1);
+    font-size: 4rem;
+    left: -10px;
+    z-index: 2;
+}
+
+.who-p1 {
+    width: 50%;
+    margin-top: 7%;
+    padding-left: 8%;
+    font-family: arial;
+    line-height: 1.2;
+}
+
+.carre {
+    width: 6rem;
+    height: 6rem;
+    background-color: rgba(230, 207, 136, 1);
+    border: none;
+    margin-top: 7%;
+    margin-left: 8%;
+    font-weight: bold;
+}
+
+.lien-btn {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+}
+
+/*section 3 leadership start*/
+
+.part1 {
+    width: 350%;
+}
+
+.img-leader {
+    width: 100%;
+    padding: 2.5rem;
+}
+
+.titre-leader {
+    width: 20%;
+    border-bottom: 5px solid rgba(230, 207, 136, 1);
+    padding-bottom: 10px;
+    font-size: 4rem;
+    position: absolute;
+    left: 410px;
+}
+
+.awake {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    padding-bottom: 12%;
+}
+
+.sec-part2-1 {
+    margin-top: 13%;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.p-awake {
+    line-height: 1.3;
+    font-family: Arial
+}
+
+.p-part2-1 {
+    line-height: 1.3;
+    font-family: Arial
+}
+
+.sec-part2-2 {
+    margin-top: 22%;
+    padding-right: 10%;
+}
+
+.p-part2-2 {
+    line-height: 1.3;
+    font-family: Arial
+}
+
+.deliver {
+    padding-top: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.p2-part2-2 {
+    padding-top: 13%;
+    line-height: 1.3;
+    font-family: Arial
+}
+
+/*section 3 leadership end*/
+
+
+/*section 4 leadership start*/
+
+.leader-article1 {
+    margin-top: -15%;
+}
+
+
+.div1-leader {
+    width: 50%;
+
+}
+
+.img-leader2 {
+    margin-top: -3%;
+    width: 100%;
+    padding: 0% 3%;
+
+}
+
+.leader-p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    padding: 0% 17%;
+}
+
+.leader-p1,
+.leader-p2,
+.leader-p3 {
+    padding-top: 1rem;
+}
+
+/*section 4 leadership end*/
+/*section 5 mastering start*/
+.titre-master {
+    margin-top: -10%;
+    width: 50%;
+    font-size: 4rem;
+}
+
+.sec-master {
+    margin-top: 40%;
+}
+
+.img-master {
+    padding: 10%;
+    width: 100%;
+}
+
+.div-master1 {
+    width: 50%;
+}
+
+.div-master2 {
+    width: 50%;
+}
+
+.p-master {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    padding: 2rem;
+}
+
+/*section 5 mastering end*/
+
+/*section 6 mastering start*/
+.sec-master2-1 {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.p1-master2-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.p2-master2-1 {
+    padding-top: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.h4-master {
+    padding-top: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.sec-master2-2 {
+    width: 50%;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.p2-master2-2 {
+    padding-top: 7%;
+}
+
+/*section 6 mastering end*/
+
+/*section 7 coaching start*/
+
+.div-coach {
+    margin-top: -20%;
+}
+
+.titre-coach {
+    width: 20%;
+    border-bottom: 5px solid rgba(230, 207, 136, 1);
+    padding-bottom: 10px;
+    font-size: 4rem;
+    position: absolute;
+    left: 410px;
+}
+
+.art-coach1 {
+    margin-top: 20%;
+    margin-right: 30%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+
+
+}
+
+.img-coach {
+    width: 25rem;
+    margin-left: -35%;
+
+}
+
+.p2-coach {
+    padding-top: 7%;
+}
+
+
+/*section 7 coaching end*/
+
+
+/*section 8 coaching start*/
+
+.artcle2-coach {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    padding-top: 3%;
+}
+
+.p1-div2-2-coach, .p2-div2-2-coach,.p4-div2-2-coach, .p5-div2-2-coach {
+    padding-bottom: 10%;
+}
+
+.div2-1-coach {
+    margin: 0% 5%;
+    padding-top: ;
+    width: 50%;
+}
+
+.img-colleg {
+
+    width: 100%;
+}
+
+.div2-2-coach {
+    width: 30%;
+    padding-right: 3%;
+}
+
+.div2-3-coach {
+    width: 30%;
+}
+
+.titre-div2-coach {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-bottom: 10%;
+
+}
+
+.carre-coaching {
+    width: 6rem;
+    height: 6rem;
+    background-color: rgba(230, 207, 136, 1);
+    border: none;
+    margin-top: 7%;
+    font-weight: bold;
+}
+
+/*section 8 coaching end*/
+
+/*section 9 band start*/
+
+.band {
+    text-align: center;
+    justify-content: space-around;
+    background-color:  rgba(245, 249, 255, 1);
+    margin-top: 37%;
+    padding: 5%;
+    font-size: 6rem;
+}
+
+.let {
+    font-size: 2.5rem;
+}
+
+/*section 9 band end*/
+
+/*section 10 testi start*/
+
+.testi {
+    padding-bottom: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.billy-img {
+    width: 31.5%;
+}
+
+.h1-testi {
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 15%;
+}
+
+.h2-testi {
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+}
+
+
+
+.raymond-img {
+    width: 35%;
+}
+
+.p-testi {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    padding-top: 9%;
+    padding-left: 15%;
+}
+
+/*section 10 testi end*/
+
+/*section 11 contact start*/
+
+.contact-sec {
+    margin-top: -29%;
+}
+
+.contact-titre {
+    width: 20%;
+    border-bottom: 5px solid rgba(230, 207, 136, 1);
+    padding-bottom: 10px;
+    font-size: 4rem;
+    position: absolute;
+    left: 410px;
+}
+
+/*section 11 contact end*/
+
+/*section 12 form start*/
+.form {
+    padding-top: 10%;
+}
+
+/*section 12 form end*/
+/*section 13 form start*/
+
+
+
+/*section 13 form end*/
