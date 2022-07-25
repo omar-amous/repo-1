@@ -2,8 +2,6 @@
 
 /* CSS DOC */
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -13,8 +11,8 @@
 }
 
 #container {
-    width: auto;
 
+    width: auto;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -29,7 +27,7 @@
 
 }
 
-.headdiv {
+.head-div {
     margin-left: 50%;
 }
 
@@ -37,19 +35,20 @@
     margin-top: 2rem;
     align-items: center;
     width: 54%;
+    margin-left: 42%;
 
 }
 
 .nav-menu {
     margin-top: 20%;
-    margin-right: 37%;
+    margin-right: 27%;
 
 }
 
 .lien {
     display: flex;
     justify-content: end;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
@@ -96,10 +95,19 @@ section {
     padding-top: 5%;
     padding-left: 5%;
     width: 30%;
-    border-bottom: 5px solid rgba(230, 207, 136, 1);
     font-size: 4rem;
     left: -10px;
     z-index: 2;
+}
+
+.trait-who {
+    position: relative;
+    width: 22rem;
+    border-bottom: 7px solid rgba(230, 207, 136, 1);
+    padding-top: 1.5rem;
+    margin-left: -2.7rem;
+    padding-bottom: 10px;
+
 }
 
 .who-p1 {
@@ -122,7 +130,6 @@ section {
 
 .lien-btn {
     text-decoration: none;
-    text-align: center;
     color: white;
     font-size: 1.1rem;
 }
@@ -140,15 +147,24 @@ section {
 
 .titre-leader {
     width: 20%;
-    border-bottom: 5px solid rgba(230, 207, 136, 1);
     padding-bottom: 10px;
     font-size: 4rem;
     position: absolute;
     left: 410px;
 }
 
+.trait-leader {
+    position: relative;
+    width: 30rem;
+    border-bottom: 7px solid rgba(230, 207, 136, 1);
+    padding-top: 5.5rem;
+    margin-left: -2.7rem;
+    padding-bottom: 10px;
+
+}
+
 .awake {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 500;
     line-height: 1.4;
     padding-bottom: 12%;
@@ -229,7 +245,8 @@ section {
 /*section 4 leadership end*/
 /*section 5 mastering start*/
 .titre-master {
-    margin-top: -10%;
+    margin-left: 8%;
+    margin-top: -21%;
     width: 50%;
     font-size: 4rem;
 }
@@ -239,7 +256,9 @@ section {
 }
 
 .img-master {
-    padding: 10%;
+    padding-top: 17%;
+    padding-right: 5%;
+    padding-left: 10%;
     width: 100%;
 }
 
@@ -249,12 +268,16 @@ section {
 
 .div-master2 {
     width: 50%;
+    background-color: rgba(245, 249, 255, 1);
+
+    padding-bottom: -10%;
+
 }
 
 .p-master {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3;
-    padding: 2rem;
+    padding: 8% 14%;
 }
 
 /*section 5 mastering end*/
@@ -304,15 +327,24 @@ section {
 
 .titre-coach {
     width: 20%;
-    border-bottom: 5px solid rgba(230, 207, 136, 1);
     padding-bottom: 10px;
     font-size: 4rem;
     position: absolute;
     left: 410px;
 }
 
+.trait-coaching {
+    position: relative;
+    width: 25rem;
+    border-bottom: 7px solid rgba(230, 207, 136, 1);
+    padding-top: 6rem;
+    margin-left: -2.7rem;
+    padding-bottom: 10px;
+
+}
+
 .art-coach1 {
-    margin-top: 20%;
+    margin-top: 13%;
     margin-right: 30%;
     margin-left: 15%;
     font-family: Arial, Helvetica, sans-serif;
@@ -343,7 +375,10 @@ section {
     padding-top: 3%;
 }
 
-.p1-div2-2-coach, .p2-div2-2-coach,.p4-div2-2-coach, .p5-div2-2-coach {
+.p1-div2-2-coach,
+.p2-div2-2-coach,
+.p4-div2-2-coach,
+.p5-div2-2-coach {
     padding-bottom: 10%;
 }
 
@@ -381,7 +416,16 @@ section {
     border: none;
     margin-top: 7%;
     font-weight: bold;
+
 }
+
+.lien-btn-coaching {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+
 
 /*section 8 coaching end*/
 
@@ -390,7 +434,7 @@ section {
 .band {
     text-align: center;
     justify-content: space-around;
-    background-color:  rgba(245, 249, 255, 1);
+    background-color: rgba(245, 249, 255, 1);
     margin-top: 37%;
     padding: 5%;
     font-size: 6rem;
@@ -405,15 +449,14 @@ section {
 /*section 10 testi start*/
 
 .testi {
-    padding-bottom: 30%;
+    padding-left: 12%;
+    padding-bottom: 15%;
     justify-content: center;
     align-items: center;
 }
 
-
-
 .billy-img {
-    width: 31.5%;
+    width: 32.5%;
 }
 
 .h1-testi {
@@ -427,20 +470,38 @@ section {
     width: max-content;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15%;
+
+    left: 450px;
 }
 
+.trait-testi {
+    width: 140px;
+    border-bottom: 5px solid rgba(230, 207, 136, 1);
+    padding-bottom: 10px;
+}
 
+.trait-testi2 {
+    width: 186px;
+    border-bottom: 5px solid rgba(230, 207, 136, 1);
+    padding-bottom: 10px;
+}
 
 .raymond-img {
     width: 35%;
 }
 
+.cotes {
+    margin-top: 21%;
+    width: 25%;
+}
+
 .p-testi {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3;
-    font-size: 1.5rem;
-    padding-top: 9%;
-    padding-left: 15%;
+    font-size: 1.1rem;
+    margin-top: 9%;
+    margin-left: -29%;
+    font-style: italic;
 }
 
 /*section 10 testi end*/
@@ -448,28 +509,110 @@ section {
 /*section 11 contact start*/
 
 .contact-sec {
-    margin-top: -29%;
+    margin-top: 5
 }
 
 .contact-titre {
+    margin-top: -22%;
+    margin-left: 5%;
     width: 20%;
-    border-bottom: 5px solid rgba(230, 207, 136, 1);
-    padding-bottom: 10px;
     font-size: 4rem;
-    position: absolute;
-    left: 410px;
+}
+
+.trait-contact {
+    position: relative;
+    width: 22rem;
+    border-bottom: 7px solid rgba(230, 207, 136, 1);
+    padding-top: 1rem;
+    margin-left: -2.7rem;
+    padding-bottom: 10px;
+
 }
 
 /*section 11 contact end*/
 
 /*section 12 form start*/
-.form {
+
+form {
     padding-top: 10%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.details {
+    padding-bottom: 0.5rem;
+}
+
+.dflexform {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.l1 {
+    width: 25%;
+}
+
+.input-l1 {
+    height: 3rem;
+    border: none;
+    background-color: rgba(245, 249, 255, 1);
+}
+
+.l2 {
+    width: 75%;
+}
+
+.input-l2 {
+    height: 12rem;
+    border: none;
+    background-color: rgba(245, 249, 255, 1);
+}
+
+.p-form {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    font-size: 0.9rem;
+    margin-top: -8%;
+    padding-left: 20%;
+    font-style: italic;
+    text-transform: none;
+}
+
+.carre-form {
+    width: 6rem;
+    height: 6rem;
+    background-color: rgba(230, 207, 136, 1);
+    border: none;
+    margin-top: 5%;
+    margin-left: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
 }
 
 /*section 12 form end*/
-/*section 13 form start*/
+/*section 13 adress start*/
+.sec-adress {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    background-color: rgb(190, 209, 238);
+    height: 8rem;
+}
 
+.adress {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.copy {
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/*section 13 form end*/
+/*section 13 adress end*/
